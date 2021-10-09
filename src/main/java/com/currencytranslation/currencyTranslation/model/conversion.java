@@ -16,7 +16,7 @@ import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "currency_translation")
-public class conversionTransactions {
+public class conversion {
 
 	@Id
 	@GeneratedValue (strategy = GenerationType.IDENTITY)
